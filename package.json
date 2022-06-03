@@ -1,7 +1,7 @@
 {
-  "name": "marriage-certificate-dapp",
+  "name": "BlockchainCertificate",
   "version": "1.0.1",
-  "description": "Issue  mariage certificate as NFT on Ethereum",
+  "description": "Issue  License as NFT on Ethereum",
   "scripts": {
     "compile": "truffle compile",
     "migrate:dev": "truffle migrate --reset --network develop",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tak1827/marriage-certificate-dapp.git"
+    "url": "git+https://github.com/SarowarSaurav/BlockchainCertificate.git"
   },
-  "author": "tak <re795h@gmail.com>",
+  "author": "sarowar <sarowar.saurav10@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tak1827/marriage-certificate-dapp/issues"
+    "url": "https://github.com/SarowarSaurav/BlockchainCertificate/issues"
   },
-  "homepage": "https://github.com/tak1827/marriage-certificate-dapp#readme",
+  "homepage": "https://github.com/SarowarSaurav/BlockchainCertificate#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^2.4.0",
     "ethereumjs-wallet": "^0.6.3",
