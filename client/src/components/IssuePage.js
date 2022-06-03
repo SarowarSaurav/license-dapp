@@ -15,6 +15,7 @@ class IssuePage extends Component {
     issued: false,
     bride: '',
     groom: '',
+    ApplicantsNID:'',
     cerID: '',
     txHash: '',
     lang: 'en',
@@ -70,7 +71,7 @@ class IssuePage extends Component {
           <h1 className="text-white">
             <Determinator>
             {{
-              en: 'Issue Real Marriage Certificate',
+              en: 'Issue Real Smart License',
               ja: '本物の証明書を発行します'
             }}
             </Determinator>
@@ -81,7 +82,7 @@ class IssuePage extends Component {
             <p className="lead text-white">
               <Determinator>
               {{
-                en: "Confirm your and your partner's name.",
+                en: "Confirm license generation.",
                 ja: 'あなたとパートーナーのお名前を確認してください。'
               }}
               </Determinator>

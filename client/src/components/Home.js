@@ -11,6 +11,7 @@ class Home extends Component {
   state = {
     bride: '',
     groom: '',
+    ApplicantsNID: '',
     lang: 'en',
   }
 
@@ -33,7 +34,7 @@ class Home extends Component {
           <h1 className="text-white">
             <Determinator>
               {{
-                en: 'Marriage certificate on Blockchain',
+                en: 'Smart certificate on Blockchain',
                 ja: 'ブロックチェーンで婚約証明書を発行'
               }}
             </Determinator>
@@ -41,7 +42,7 @@ class Home extends Component {
           <p className="lead text-white">
             <Determinator>
               {{
-                en: 'Blockchain prove your marriage forever even you go. Issue marriage certificate for everybody even sexual minorities.',
+                en: 'Blockchain prove your smart license forever even you go. Issue smart license for everybody.',
                 ja: 'ブロックチェーン上にあなた方の婚約を永遠に記録します。いかなるセクシャルマイノリティーでも発行可能です。'
               }}
             </Determinator>
@@ -52,26 +53,27 @@ class Home extends Component {
             <p className="lead text-white">
               <Determinator>
                 {{
-                  en: "We are going to show you a sample certificate.Please tell us your name and your partner's name.",
+                  en: "We are going to show you a sample license.Please tell us your name and rickshaw number.",
                   ja: '証明書のサンプルを発行します。あなたのお名前と、パートナーのお名前を教えてください。'
                 }}
               </Determinator>
             </p>
           </div>
-
           <div className="form-label-group mb-2">
-            <input type="text" name="bride" placeholder={this.state.lang === 'ja' ? "あなたのお名前" : "Your Name"} required
+            <input type="text" name="bride" placeholder={this.state.lang === 'ja' ? "あなたのお名前" : "চালকের নাম -"} required
               onChange={(e) => this.handleChange(e)}
               className={this.validation(bride) || bride === '' ? "form-control" : "is-invalid form-control"}/>
             <div className="invalid-feedback text-white">Too Long</div>
           </div>
+          
 
           <div className="form-label-group mb-4">
-            <input type="text" name="groom" placeholder={this.state.lang === 'ja' ? "パートナーのお名前" : "Partner's Name"} required
+            <input type="text" name="groom" placeholder={this.state.lang === 'ja' ? "パートナーのお名前" : "রিকশা নম্বর -"} required
               onChange={(e) => this.handleChange(e)}
               className={this.validation(groom) || groom === '' ? "form-control" : "is-invalid form-control"}/>
             <div className="invalid-feedback text-white">Too Long</div>
           </div>
+          
           <Link className={canIssue
               ? 'btn btn-lg btn-block btn-outline-pink'
               : 'btn btn-lg btn-block btn-outline-pink disabled'

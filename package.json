@@ -20,6 +20,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^2.4.0",
     "ethereumjs-wallet": "^0.6.3",
-    "truffle-hdwallet-provider": "^1.0.17"
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.7.3"
   }
 }

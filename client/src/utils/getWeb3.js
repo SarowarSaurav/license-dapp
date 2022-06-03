@@ -20,7 +20,7 @@ const getWeb3 = (useUetamask = false) =>
       }
     } else {
       resolve(new Web3(new Web3.providers.HttpProvider(
-        "https://mainnet.infura.io/v3/17d6cc16e48d403c89a993c39c940f5b"
+        "https://mainnet.infura.io/v3/13773194ebf54c3098e4b8a3f85e642f"
       )))
     }
   })

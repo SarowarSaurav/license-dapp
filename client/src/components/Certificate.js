@@ -14,15 +14,17 @@ import CerImg from "../images/certificate-stamp.png"
 import FacebookImg from "../images/facebook-icon.svg"
 import TwitterImg from "../images/twitter-icon.svg"
 import MailImg from "../images/mail-icon.svg"
-
+import qr from "../images/qrc.png"
+import bottom from "../images/qr.png"
 const PREFIX_NUM = 20000000
 
 class Certificate extends Component {
   state = {
     bride: '',
     groom: '',
-    cerID: '0x00000',
-    txHash: '0x0000000000000000000000000000000000000000',
+    ApplicantsNID:'',
+    cerID: '0x7895',
+    txHash: '0xbae72C091F949beA6D823370153Ce27a92A667eF',
     issuedDate: (new Date()).toLocaleDateString('en-US'),
     lang: 'en',
   }
@@ -73,55 +75,90 @@ class Certificate extends Component {
             <div className="row mt-3">
               <div className="col">
                 <img className="d-block mx-auto mb-4" src={LineTopImg} alt="" width="300" height="50"/>
-                { isSample ? <h3>Sample</h3> : ''}
-                <h1 className="text-pink"><font face="cursive">Certificate of Marriage</font></h1>
-                <h3 className="text-pink">Recorded forever in Blockchain</h3>
+                { isSample ? <h3>Dhaka City Corporation Smart License Project</h3> : ''}
+                <h1 className="text-pink"><font face="cursive">License of Route Permission</font></h1>
+                <blockquote className="blockquote ml-2">
+                <p className="mb-5">Blockchain Olympiad Bangladesh 2022</p>
+                </blockquote>
+                
               </div>
             </div>
             <div className="row">
-              <div className="col-md-5">
+            <div class="col-sm-4">
+              <h4>         চালকের নাম - </h4>
+              </div>
+              <div className="col-sm-6">
                 <p className="lead mx-4 border-line"><font face="cursive">{this.state.bride}</font></p>
               </div>
-              <div className="col-md-2">
-                <p>And</p>
+             
+                
               </div>
-              <div className="col-md-5">
-                <p className="lead mx-4 border-line"><font face="cursive">{this.state.groom}</font></p>
+              <div className="row">
+              <div class="col-sm-4">
+              <h4>         রিকশা নম্বর - </h4>
               </div>
-            </div>
-            <div className="row">
+              <div className="col-sm-6">
+              <p className="lead mx-4 border-line"><font face="cursive">{this.state.groom}</font></p>
+              </div>
+             </div>
+            
+             <div className="row">
+            <div class="col-sm-4">
+              <h4>      জাতীয় পরিচয়পত্র নং -    </h4>
+              </div>
+              <div className="col-sm-6">
+                <p className="lead mx-4 border-line"><font face="cursive">0XXXXXXXXXXXXXXXXXXXX</font></p>
+              </div>
+
+              </div>
+
+              <div className="row">
+            <div class="col-sm-4">
+              <h4>         
+              রিকশা মালিকের নাম - </h4>
+              </div>
+              <div className="col-sm-6">
+                <p className="lead mx-4 border-line"><font face="cursive">করিম শেখ</font></p>
+              </div>
+             
+                
+              </div>
+
+              <blockquote className="blockquote ml-2">
+                <p className="mb-4"></p>
+                </blockquote>
+              <div className="row">
               <div className="col">
-                <p>Were United in Marriage on <code className="border-line text-dark"><font face="cursive">{this.state.issuedDate}</font></code><br/>This Certificate was Recored in a Smart Contract of Ethereum.</p>
+              <p>লাইসেন্সটি ইসু করা হয়েছে <code className="border-line text-dark"><font face="cursive">{this.state.issuedDate}</font></code> ||   এই লাইসেন্সটি ইথেরিয়ামের স্মার্ট কন্ট্রাক্ট রেকর্ড করা হয়েছে</p>
               </div>
             </div>
-            <div className="row mb-5">
+            <blockquote className="blockquote ml-2">
+                <p className="mb-2"></p>
+                </blockquote>
+            <div className="row mb-8">
               <div className="col-md-1"></div>
               <div className="col-md-8 text-left">
                 <blockquote className="blockquote ml-2">
-                  <p className="mb-0">Transaction Hash:</p>
-                  <footer className="blockquote-footer break-word">
-                  {
-                    isSample
-                      ? <div>{this.state.txHash}</div>
-                      : <a href={`https://etherscan.io/tx/${this.state.txHash}`} target="_blank" rel="noopener noreferrer">
-                          {this.state.txHash}
-                        </a>
-                  }
-                  </footer>
+                  <p className="mb-0" ></p> 
+                
+                  <blockquote className="blockquote ml-2">
+                  <p className="mb-0">Unique ID :</p>
+                  <footer className="blockquote-footer break-word">{this.state.txHash}</footer>
+                </blockquote>
                 </blockquote>
                 <blockquote className="blockquote ml-2">
-                  <p className="mb-0">Certificate ID:</p>
+                  <p className="mb-0">License ID:</p>
                   <footer className="blockquote-footer break-word">{this.state.cerID}</footer>
                 </blockquote>
               </div>
               <div className="col-md-2">
-                <img src={CerImg} alt="certificates stamp" width="130" height="150"/>
+                <img src={qr}  alt="certificates stamp" width="150" height="150"/>
               </div>
               <div className="col-md-1"></div>
             </div>
             <div className="row">
               <div className="col">
-                <img className="d-block mx-auto mb-4" src={LineBottomImg} alt="" width="270" height="40"/>
+                <img className="d-block mx-auto mb-4" src={bottom} alt="" width="570" height="120"/>
               </div>
             </div>
           </div>

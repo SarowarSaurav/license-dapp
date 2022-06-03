@@ -1,6 +1,6 @@
 const APP_ID = 2593999254169138
-const TWEET_TXT = 'I issued a marriage certificate on Blockchain. Check out my certificate'
-const ML_SUBJECT = 'I issued a marriage certificate on Blockchain'
+const TWEET_TXT = 'I issued a smart license on Blockchain. Check out my license'
+const ML_SUBJECT = 'I issued a smart license on Blockchain'
 
 const builURL = () => {
   const l = window.location
