@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.js": "/marriage-certificate-dapp/static/js/main.160e065c.chunk.js",
-    "main.js.map": "/marriage-certificate-dapp/static/js/main.160e065c.chunk.js.map",
+    "main.js": "/marriage-certificate-dapp/static/js/main.5ce5ad35.chunk.js",
+    "main.js.map": "/marriage-certificate-dapp/static/js/main.5ce5ad35.chunk.js.map",
     "runtime-main.js": "/marriage-certificate-dapp/static/js/runtime-main.127dbac3.js",
     "runtime-main.js.map": "/marriage-certificate-dapp/static/js/runtime-main.127dbac3.js.map",
-    "static/js/2.cfabf5be.chunk.js": "/marriage-certificate-dapp/static/js/2.cfabf5be.chunk.js",
-    "static/js/2.cfabf5be.chunk.js.map": "/marriage-certificate-dapp/static/js/2.cfabf5be.chunk.js.map",
+    "static/js/2.b3e79b04.chunk.js": "/marriage-certificate-dapp/static/js/2.b3e79b04.chunk.js",
+    "static/js/2.b3e79b04.chunk.js.map": "/marriage-certificate-dapp/static/js/2.b3e79b04.chunk.js.map",
     "index.html": "/marriage-certificate-dapp/index.html",
-    "precache-manifest.aa3446dbc5e69ad9991e2f2cceaf732f.js": "/marriage-certificate-dapp/precache-manifest.aa3446dbc5e69ad9991e2f2cceaf732f.js",
+    "precache-manifest.2b24cc86eb1266cd5c9dce6cd0a890fb.js": "/marriage-certificate-dapp/precache-manifest.2b24cc86eb1266cd5c9dce6cd0a890fb.js",
     "service-worker.js": "/marriage-certificate-dapp/service-worker.js",
-    "static/media/certificate-stamp.png": "/marriage-certificate-dapp/static/media/certificate-stamp.dd99316c.png",
+    "static/media/certificate-stamp.png": "/marriage-certificate-dapp/static/media/certificate-stamp.ca2a253e.png",
     "static/media/facebook-icon.svg": "/marriage-certificate-dapp/static/media/facebook-icon.1102b5b1.svg",
     "static/media/gorgeous-line-bottom.png": "/marriage-certificate-dapp/static/media/gorgeous-line-bottom.d1162595.png",
     "static/media/gorgeous-line-top.png": "/marriage-certificate-dapp/static/media/gorgeous-line-top.ff1db429.png",
-    "static/media/icon.png": "/marriage-certificate-dapp/static/media/icon.57c400b8.png",
+    "static/media/icon.png": "/marriage-certificate-dapp/static/media/icon.67c804bc.png",
     "static/media/mail-icon.svg": "/marriage-certificate-dapp/static/media/mail-icon.46bb5905.svg",
+    "static/media/qr.png": "/marriage-certificate-dapp/static/media/qr.0ccae79e.png",
+    "static/media/qrc.png": "/marriage-certificate-dapp/static/media/qrc.e4741a98.png",
     "static/media/twitter-icon.svg": "/marriage-certificate-dapp/static/media/twitter-icon.a1223de5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.127dbac3.js",
-    "static/js/2.cfabf5be.chunk.js",
-    "static/js/main.160e065c.chunk.js"
+    "static/js/2.b3e79b04.chunk.js",
+    "static/js/main.5ce5ad35.chunk.js"
   ]
 }
