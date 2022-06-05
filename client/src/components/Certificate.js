@@ -14,7 +14,7 @@ import CerImg from "../images/certificate-stamp.png"
 import FacebookImg from "../images/facebook-icon.svg"
 import TwitterImg from "../images/twitter-icon.svg"
 import MailImg from "../images/mail-icon.svg"
-import qr from "../images/qrc.png"
+import qr from "../images/qrac.png"
 import bottom from "../images/qr.png"
 const PREFIX_NUM = 20000000
 
