@@ -1,5 +1,6 @@
 {
-  "name": "BlockchainCertificate",
+  "homepages": "https://SarowarSaurav.github.io/license-dapp",
+  "name": "marriage-certificate-dapp",
   "version": "1.0.1",
   "description": "Issue  License as NFT on Ethereum",
   "scripts": {
@@ -10,17 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SarowarSaurav/BlockchainCertificate.git"
+    "url": "git+https://github.com/SarowarSaurav/license-dapp.git"
   },
   "author": "sarowar <sarowar.saurav10@gmail.com>",
   "bugs": {
-    "url": "https://github.com/SarowarSaurav/BlockchainCertificate/issues"
+    "url": "https://github.com/SarowarSaurav/license-dapp/issues"
   },
-  "homepage": "https://github.com/SarowarSaurav/BlockchainCertificate#readme",
+  "homepage": "https://github.com/SarowarSaurav/license-dapp#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^2.4.0",
     "ethereumjs-wallet": "^0.6.3",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

@@ -6,7 +6,6 @@ import { toHex } from "../utils/hex"
 import { langIsJa } from "../utils/common"
 
 import IconImg from "../images/icon.png"
-
 class Home extends Component {
   state = {
     bride: '',

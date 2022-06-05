@@ -14,7 +14,7 @@ import CerImg from "../images/certificate-stamp.png"
 import FacebookImg from "../images/facebook-icon.svg"
 import TwitterImg from "../images/twitter-icon.svg"
 import MailImg from "../images/mail-icon.svg"
-import qr from "../images/qrc.png"
+import qr from "../images/qr-ac.png"
 import bottom from "../images/qr.png"
 const PREFIX_NUM = 20000000
 
@@ -74,7 +74,7 @@ class Certificate extends Component {
           <div className="cross-line text-center my-2 mx-2">
             <div className="row mt-3">
               <div className="col">
-                <img className="d-block mx-auto mb-4" src={LineTopImg} alt="" width="300" height="50"/>
+                <img className="" src={LineTopImg} alt="" width="300" height="50"/>
                 { isSample ? <h3>Dhaka City Corporation Smart License Project</h3> : ''}
                 <h1 className="text-pink"><font face="cursive">License of Route Permission</font></h1>
                 <blockquote className="blockquote ml-2">
@@ -107,7 +107,7 @@ class Certificate extends Component {
               <h4>      জাতীয় পরিচয়পত্র নং -    </h4>
               </div>
               <div className="col-sm-6">
-                <p className="lead mx-4 border-line"><font face="cursive">0XXXXXXXXXXXXXXXXXXXX</font></p>
+                <p className="lead mx-4 border-line"><font face="cursive">0123456789</font></p>
               </div>
 
               </div>
